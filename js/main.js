@@ -1,5 +1,37 @@
-var dataHoje = new Date();
-console.log(dataHoje.getMinutes());
+function soma(n1, n2){
+	return n1 + n2;
+}
+
+function setReplace(frase, nome, novo_nome) {
+	return frase.replace(nome, novo_nome);
+}
+
+console.log(soma(5,10));
+
+console.log(setReplace("vai japao", "japao", "brasil"));
+
+var validar;
+function validaIdade(idade){
+	validar;
+	if (idade >= 18) {
+		validar = true;
+	}else{
+		validar =false;
+	}
+	return validar;
+}
+
+var idade = prompt("Qual sua idade?");
+console.log(validaIdade(idade));
+
+
+// var lista  = [nome: “rosa” , “cravo” , “tulipa”, “margarida”];
+
+// console.log(lista[2]);
+
+
+// var dataHoje = new Date();
+// console.log(dataHoje.getMinutes());
 
 
 // var count;
